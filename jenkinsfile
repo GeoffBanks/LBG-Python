@@ -1,6 +1,6 @@
 pipeline{
 environment {
-registry = "username/restapp"
+registry = "username/lbg-python"
         registryCredentials = "dockerhub_id"
         dockerImage = ""
     }
