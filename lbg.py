@@ -22,7 +22,7 @@ mimetypes.add_type('text/javascript', '.js')
 
 # set up the app with listening socket for http requests and appropriate hostname
 parser = argparse.ArgumentParser()
-parser.add_argument("--PORT", default="3000")
+parser.add_argument("--PORT", default="8080")
 args = parser.parse_args()
 
 PORT = args.PORT
