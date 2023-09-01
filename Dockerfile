@@ -1,6 +1,6 @@
 FROM python:3.7
 WORKDIR /app
-RUN pip install -r "requirements.txt"
+RUN pip install flask
 COPY . .
 EXPOSE 8080
 ENTRYPOINT ["python" "lbg.py"]
